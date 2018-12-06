@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container>
+  <testcase id="67443" type="Source Code" status="Accepted" submissionDate="2013-05-20" language="C++" author="NSA/Center for Assured Software" numberOfFiles="5" testsuiteid="86 108">
+    <description><![CDATA[CWE: 121 Stack Based Buffer Overflow<br/> BadSource:  Initialize data as a large string<br/> GoodSource: Initialize data as a small string<br/> Sinks: cpy<br/> BadSink : Copy data to string using wcscpy<br/> Flow Variant: 74 Data flow: data passed in a map from one function to another in different source files]]></description>
+    <file path="shared/108/io.c" language="C" size="5429" checksum="bcf531cb1922c03347031698c1c72eddadbf0d88"/>
+    <file path="shared/108/std_testcase_io.h" language="C" size="1457" checksum="56de16829d5ac9d8086670ee5098217aa6694d26"/>
+    <file path="shared/108/std_testcase.h" language="C" size="4004" checksum="d1801c64bc49d5d05fb3d55f7cc7e3a925c47e2f"/>
+    <file path="000/067/443/CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cpy_74b.cpp" language="C++" size="1503" checksum="72947de2a61d6082d628b3a4a2d21af462b736ea">
+      <mixed line="36" name="CWE-121: Stack-based Buffer Overflow"/>
+    </file>
+    <file path="000/067/443/CWE121_Stack_Based_Buffer_Overflow__src_wchar_t_declare_cpy_74a.cpp" language="C++" size="2887" checksum="7079b7952831245206f9f841d5fd24e5c49a8bea"/>
+  </testcase>
+</container>
